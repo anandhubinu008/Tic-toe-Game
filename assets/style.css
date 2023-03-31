@@ -1,0 +1,80 @@
+
+body{
+    background-image: url(image/cool-geometric-triangular-figure-neon-laser-light-great-backgrounds-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55rem;
+}
+.condainer{
+  margin: auto;
+}
+.cellBoxCondainer{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:92%;
+    margin-top: 7rem;
+}
+.condainer h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+.condainer h1{
+    margin-top: 5rem;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 5rem;
+    text-align: center;
+}
+.cellCondainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 150px;
+    color: wheat;
+    line-height: 75px;
+   
+}
+.cell{
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-family:cursive; 
+    
+   
+}
+.condainer button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 4px;
+    background-color: black;
+    color: azure;
+    font-size: 20px;
+    margin-left: 47%;
+    margin-top: 2rem;
+    
+}
+@media (max-width:768px){
+.cellBoxCondainer{
+    margin-left: -18%;
+    margin-top: 1rem;
+}
+.condainer h1{
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+.condainer h2{
+    margin-top: 2rem;;
+}
+.condainer button{
+    margin-left: 31%;
+}
+}
